@@ -1,0 +1,17 @@
+spring:
+   application:
+        name : UserLoginService
+   datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/UserDetails
+     username: root
+     password:
+   jpa:
+     database-platform: org.hibernate.dialect.MySQL8Dialect
+
+     hibernate:
+       ddl-auto: update
+security:
+       jwt:
+          token:
+              secret-key: my-secret-key
