@@ -25,7 +25,7 @@ JWT Filter is utilized for token-based authentication, enhancing security and en
 
 ## Mysql:
    
-   - Create the Database names it as UserDetails
+   - Create the Database name it as UserDetails
    - Create the table using below schema:
 
 CREATE TABLE `app_user` (
