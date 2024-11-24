@@ -2,7 +2,7 @@
 
 overview of the UserLoginService backend application, developed using Spring Boot:
 
-<u>Core Features with API:</u>
+## <u> Core Features with API: </u>
 
 ## User Signup:     /api/auth/signup 
 Enables users to register and create an account.
@@ -25,8 +25,8 @@ JWT Filter is utilized for token-based authentication, enhancing security and en
 
 ## Mysql:
    
-   - Create Database UserDetails
-   - create the table using below schema:
+   - Create the Database names it as UserDetails
+   - Create the table using below schema:
 
 CREATE TABLE `app_user` (
 `id` bigint NOT NULL AUTO_INCREMENT,
@@ -42,7 +42,7 @@ PRIMARY KEY (`id`)
 ## Follow the below steps to run the application
 
    - Checkout the code from git
-   - Run the gradle clean build to clean the clean the directory and build the application
+   - Run the gradle clean build to clean  the directory and build the application
    - Run the gradle bootRun to run the application 
 
 
